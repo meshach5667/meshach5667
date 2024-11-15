@@ -18,7 +18,6 @@
 
 
 
-I'm a Software Engineer, who currently works as a Backend developer intern at [Flexisaf](https://flexisaf.com/)
 
 **Here's a quick summary about me**:
 
