@@ -22,10 +22,10 @@
 **Here's a quick summary about me**:
 
 - 😊 Pronouns: He/him
-- 💡 Fun fact: I'm currently studying Computer Science at Bingham university and Backend Engeneering at AltschoolAfrica [School of Software Engineering](https://altschoolafrica.com/schools/engineering)
-- 🌱 I’m currently learning JavaScript, Java, and Python.
+- 💡 Fun fact: I'm currently studying Computer Science at Bingham university
+- 🌱 I’m currently learning JavaScript, Java, and Rust.
 - 😊 I’m looking for help with open source projects, hackathons, internships, and entry-level opportunities.
-- 💼 Job interests: Software Engineer, Front Engineer, or Backend Engineer (Intern or Junior level).
+- 💼 Job interests: Software Engineer, web3 developer, or Backend Engineer (Intern or Junior level).
 - 📫 You can [view my resume](#) and contact me by emailing meshachzakumi@gmail.com.
 
 ---
