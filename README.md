@@ -1,34 +1,171 @@
-# Hello there; welcome 👋🏾
+<div align="center">
 
-[![AltSchool Badge](https://img.shields.io/badge/-Engineering-6773E5?style=for-the-badge&logo=data:image/png;base64,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&logoColor=white&link=https://altschoolafrica.com/schools/engineering)](https://altschoolafrica.com/schools/engineering)
-[![C Badge](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)](https://your-link-here)
-[![Linux Badge](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)](https://your-link-here)
-[![Python Badge](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
-[![Java Badge](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white)](https://www.java.com/)
-[![C++ Badge](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)](https://isocpp.org/)
-[![Google Developers Student Club Badge](https://img.shields.io/badge/Google_Developers_Student_Club-4285F4?style=for-the-badge&logo=google&logoColor=white)](https://developers.google.com/community/dsc)
+# Hi there! <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"/> I'm Meshach!
 
-[![HTML Badge](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
-[![CSS Badge](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
-[![JavaScript Badge](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-[![Django Badge](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)](https://www.djangoproject.com/)
-[![FastAPI Badge](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
+<img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&pause=1000&color=00D9FF&center=true&vCenter=true&width=435&lines=Software+Engineer;Full+Stack+Developer;Open+Source+Enthusiast;Problem+Solver;Tech+Community+Member" alt="Typing SVG" />
 
-
-
-
-
-
-**Here's a quick summary about me**:
-
-- 😊 Pronouns: He/him
-- 💡 Fun fact: I'm currently studying Computer Science at Bingham university
-- 🌱 I’m currently learning JavaScript, Java, and Rust.
-- 😊 I’m looking for help with open source projects, hackathons, internships, and entry-level opportunities.
-- 💼 Job interests: Software Engineer, web3 developer, or Backend Engineer (Intern or Junior level).
-- 📫 You can [view my resume](#) and contact me by emailing meshachzakumi@gmail.com.
+</div>
 
 ---
 
-| <img align="center" src="https://github-readme-stats.vercel.app/api?username=meshach5667&show_icons=true&include_all_commits=true&hide_border=true" alt="Meshach's GitHub stats" /> | <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=meshach5667&langs_count=8&layout=compact&hide_border=true" alt="Bolaji's GitHub stats" /> |
-| ------------- | ------------- |
+<img align="right" alt="Coding" width="400" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif">
+
+## 🚀 About Me
+
+- 💻 **Software Engineer** | **Full Stack Developer** | **Tech Enthusiast**
+- 🌱 Currently exploring: **Advanced JavaScript**, **System Design**, **Mobile Development**
+- 🎯 Passionate about building scalable applications and clean code
+- 🤝 Active member of tech communities like **GDG** and **NACOS**
+- 📚 Love sharing knowledge and mentoring fellow developers
+- ⚡ Fun fact: I debug with console.log more than I'd like to admit! 😄
+
+---
+
+## 🏆 Community & Achievements
+
+<div align="center">
+<img src="https://img.shields.io/badge/Google_Developer_Groups-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="GDG"/>
+<img src="https://img.shields.io/badge/NACOS-00C851?style=for-the-badge&logo=organization&logoColor=white" alt="NACOS"/>
+<img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+<img src="https://img.shields.io/badge/Stack_Overflow-FE7A16?style=for-the-badge&logo=stack-overflow&logoColor=white" alt="Stack Overflow"/>
+</div>
+
+---
+
+## 🛠️ Tech Stack & Tools
+
+### Languages
+<div align="center">
+<img src="https://skillicons.dev/icons?i=javascript,typescript,python,java,html,css,php,cpp" />
+</div>
+
+### Frontend
+<div align="center">
+<img src="https://skillicons.dev/icons?i=react,nextjs,vue,angular,tailwind,bootstrap,sass,materialui" />
+</div>
+
+### Backend & Databases
+<div align="center">
+<img src="https://skillicons.dev/icons?i=nodejs,express,django,flask,mongodb,mysql,postgresql,redis" />
+</div>
+
+### Tools & Platforms
+<div align="center">
+<img src="https://skillicons.dev/icons?i=git,github,vscode,figma,postman,npm,webpack,babel" />
+</div>
+
+### Mobile & Desktop
+<div align="center">
+<img src="https://skillicons.dev/icons?i=reactnative,flutter,dart,electron,androidstudio" />
+</div>
+
+---
+
+## 📊 GitHub Analytics
+
+<div align="center">
+<img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=meshach5667&show_icons=true&theme=algolia&include_all_commits=true&count_private=true"/>
+<img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=meshach5667&layout=compact&langs_count=8&theme=algolia"/>
+</div>
+
+---
+
+## 🔥 Streak Stats
+
+<div align="center">
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=meshach5667&theme=algolia" alt="meshach5667" />
+</div>
+
+---
+
+## 🏆 GitHub Trophies
+
+<div align="center">
+<img src="https://github-profile-trophy.vercel.app/?username=meshach5667&theme=algolia&no-frame=false&no-bg=false&margin-w=4" />
+</div>
+
+---
+
+## 📈 Activity Graph
+
+<div align="center">
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=meshach5667&theme=react-dark&bg_color=20232a&hide_border=true" width="100%"/>
+</div>
+
+---
+
+## 🌐 Connect & Follow
+
+<div align="center">
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://ng.linkedin.com/in/obed-meshach-zakumi-64bb76287)
+[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/MeshachZakumi)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/t3chnniciann)
+[![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=todoist&logoColor=white)](#)
+[![Email](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:meshachzakumi@gmail.com)
+
+</div>
+
+---
+
+## 💡 Random Dev Quote
+
+<div align="center">
+<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" />
+</div>
+
+---
+
+## 🐍 Contribution Snake
+
+<div align="center">
+<img src="https://raw.githubusercontent.com/meshach5667/meshach5667/output/github-contribution-grid-snake.svg" />
+</div>
+
+---
+
+## 📊 Weekly Development Breakdown
+
+<!--START_SECTION:waka-->
+<!--END_SECTION:waka-->
+
+---
+
+## 🎯 Current Focus
+
+```javascript
+const meshach = {
+    pronouns: "He/Him",
+    location: "Nigeria 🇳🇬",
+    role: "Software Engineer",
+    languages: ["JavaScript", "TypeScript", "Python", "Java"],
+    frameworks: ["React", "Node.js", "Express", "Django"],
+    communities: ["Google Developer Groups", "NACOS", "GitHub"],
+    currentFocus: ["System Design", "Mobile Development", "Open Source"],
+    funFact: "I can debug any code with enough coffee ☕"
+};
+```
+
+---
+
+## 🎵 Spotify Playing
+
+<div align="center">
+<img src="https://spotify-github-profile.vercel.app/api/spotify-playing" width="350" />
+</div>
+
+---
+
+<div align="center">
+
+### Show some ❤️ by starring some of my repositories!
+
+<img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="60"> <em><b>I love connecting with different people</b> so if you want to say <b>hi, I'll be happy to meet you more!</b> 😊</em>
+
+---
+
+⭐️ From [meshach5667](https://github.com/meshach5667) with ❤️
+
+<img src="https://komarev.com/ghpvc/?username=meshach5667&label=Profile%20views&color=0e75b6&style=flat" alt="meshach5667" />
+
+</div>
