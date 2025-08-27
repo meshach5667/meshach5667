@@ -141,7 +141,7 @@ const meshach = {
     languages: ["JavaScript", "TypeScript", "Python", "Java"],
     frameworks: ["React", "Node.js", "Express", "Django"],
     communities: ["Google Developer Groups", "NACOS", "GitHub"],
-    currentFocus: ["System Design", "Mobile Development", "Open Source"],
+    currentFocus: ["Software development", "Mobile Development", "Open Source", "AI"],
     funFact: "I can debug any code with enough coffee ☕"
 };
 ```
