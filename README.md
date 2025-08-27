@@ -36,12 +36,12 @@
 
 ### Languages
 <div align="center">
-<img src="https://skillicons.dev/icons?i=javascript,typescript,python,java,html,css,php,cpp" />
+<img src="https://skillicons.dev/icons?i=javascript,typescript,python,java,html,css,cpp" />
 </div>
 
 ### Frontend
 <div align="center">
-<img src="https://skillicons.dev/icons?i=react,nextjs,vue,angular,tailwind,bootstrap,sass,materialui" />
+<img src="https://skillicons.dev/icons?i=react,tailwind,bootstrap,sass,materialui" />
 </div>
 
 ### Backend & Databases
@@ -78,13 +78,7 @@
 
 ---
 
-## 🏆 GitHub Trophies
 
-<div align="center">
-<img src="https://github-profile-trophy.vercel.app/?username=meshach5667&theme=algolia&no-frame=false&no-bg=false&margin-w=4" />
-</div>
-
----
 
 ## 📈 Activity Graph
 
@@ -116,13 +110,8 @@
 
 ---
 
-## 🐍 Contribution Snake
 
-<div align="center">
-<img src="https://raw.githubusercontent.com/meshach5667/meshach5667/output/github-contribution-grid-snake.svg" />
-</div>
 
----
 
 ## 📊 Weekly Development Breakdown
 
@@ -148,11 +137,7 @@ const meshach = {
 
 ---
 
-## 🎵 Spotify Playing
 
-<div align="center">
-<img src="https://spotify-github-profile.vercel.app/api/spotify-playing" width="350" />
-</div>
 
 ---
 
