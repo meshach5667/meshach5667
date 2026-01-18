@@ -17,7 +17,7 @@
 - 🎯 Passionate about building scalable applications and clean code
 - 🤝 Active member of tech communities like **GDG** and **NACOS**
 - 📚 Love sharing knowledge and mentoring fellow developers
-- ⚡ Fun fact: I debug with console.log more than I'd like to admit! 😄
+
 
 ---
 
