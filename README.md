@@ -123,7 +123,7 @@
 ## 🎯 Current Focus
 
 ```javascript
-const meshach = {
+const shugaba = {
     pronouns: "He/Him",
     location: "Nigeria 🇳🇬",
     role: "Software Engineer",
